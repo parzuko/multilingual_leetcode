@@ -10,39 +10,21 @@ Structure of what we're gonna create
   4
 
 """
+from traversal import traverse_in_order, traverse_pre_order 
 
-class BinarySearchTree:
+class BinarySearchTreeNode:
     def __init__(self, data):
         self.value = data
         self.right = None
         self.left = None
         
 if __name__ == "__main__":
-    
-    # create root 
-    root = BinarySearchTree(1) 
-        #     1 
-        #   /   \ 
-        #  None  None
-        
-    root.left      = BinarySearchTree(2)
-    root.right     = BinarySearchTree(3)
-        
-    # 2 and 3 become left and right children of 1 
-    #            1 
-    #          /   \ 
-    #         2      3 
-    #      /    \    /  \ 
-    #    None None None None
-        
-        
-    root.left.left  = BinarySearchTree(4)
-
-    # 4 becomes left child of 2 
-    #            1 
-    #        /       \ 
-    #       2          3 
-    #     /   \       /  \ 
-    #    4    None  None  None 
-    #   /  \ 
-    # None None
+    root = BinarySearchTreeNode(1) 
+    root.left      = BinarySearchTreeNode(2)
+    root.right     = BinarySearchTreeNode(3)   
+    root.left.left  = BinarySearchTreeNode(4)
+    root.left.right  = BinarySearchTreeNode(5)
+    traverse_in_order(root)     # This will print 4 2 5 1 3
+    print()
+    traverse_pre_order(root)    # This will print 1 2 4 5 3
+    print()
