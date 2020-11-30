@@ -6,7 +6,7 @@ kotlinc binary_search_trees.kt -include-runtime -d binary_search_trees.jar
 java -jar binary_search_trees.jar
  */
 
-class BinarySearchTreeNode(
+data class BinarySearchTreeNode(
     val value: Int,
     var left: BinarySearchTreeNode? = null,
     var right: BinarySearchTreeNode? = null,
@@ -26,5 +26,15 @@ fun main() {
     two.right = five
 
     println("Created BST!")
+    traverseInOrder(root)
 
+}
+
+fun traverseInOrder(root: BinarySearchTreeNode?){
+    if (root == null){
+        return
+    }
+    traverseInOrder(root.left)
+    print("${root.value} ")
+    traverseInOrder(root.right)
 }
