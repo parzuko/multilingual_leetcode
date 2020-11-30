@@ -14,7 +14,9 @@ void main() {
   root.right = BinarySearchTreeNode(3, null, null);
   root.left.left = BinarySearchTreeNode(4, null, null);
   root.left.right = BinarySearchTreeNode(5, null, null);
+
   print("Created BST!");
-  traverseInOrder(root);
+  
+  traverseInOrder(root);  // This will print 4 2 5 1 3
   print("");
 }

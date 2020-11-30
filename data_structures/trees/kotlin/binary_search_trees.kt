@@ -26,7 +26,7 @@ fun main() {
     two.right = five
 
     println("Created BST!")
-    traverseInOrder(root)
+    traverseInOrder(root)   // This will print 4 2 5 1 3
 
 }
 
