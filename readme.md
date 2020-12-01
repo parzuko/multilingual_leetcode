@@ -19,6 +19,12 @@
 
 Made with ♥ by Jivansh Sharma :v: [Get in touch!]()
 
+Last Update: December 1, 2020
+
+- Easy : 0
+- Medium : 1
+- Hard : 
+
 ## Trees
 [Video Walkthrough](https://www.youtube.com/watch?v=oSWTXtMglKE&feature=youtu.be&ab_channel=HackerRank)
 
