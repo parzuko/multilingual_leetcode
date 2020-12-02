@@ -19,7 +19,7 @@
 
 Made with ♥ by Jivansh Sharma :v: [Get in touch!]()
 
-Last Update: December 1, 2020
+Last Update: December 2, 2020
 
 - Easy : 0
 - Medium : 1
@@ -35,6 +35,6 @@ Implementations in the five languages :
 - [Golang]()
 - [Dart]()
 
-| Problem | Solution | Difficulty | Time | Space |
-| ----- | -------- | ---------- | ---- | ----- |
-[Traversal]()|[Python](), [C++](), [Golang](), [Kotlin]()| Easy| O(n)| O(n)|
+| Problem Number | Title | Difficulty | Solutions |
+| ----- | -------- | ---------- | ---- |
+ [0094](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [ Binary Tree InOrder Traversal](leetcode/medium/0094InOrder)| Medium| [Python](leetcode/medium/0094InOrder/inorder.ktleetcode/medium/0094InOrder/inorder.py), [C++](leetcode/medium/0094InOrder/inorder.cpp), [Golang](leetcode/medium/0094InOrder/inorder.go), [Kotlin](leetcode/medium/0094InOrder/inorder.kt)|
