@@ -21,7 +21,7 @@ Made with ♥ by Jivansh Sharma :v: [Get in touch!](https://twitter.com/JivanshS
 
 Last Update: December 4, 2020
 
-- Easy : 1
+- Easy : 2
 - Medium : 2
 - Hard : 
 
