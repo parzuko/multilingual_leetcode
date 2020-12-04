@@ -17,7 +17,7 @@ public:
     {
         if (root == nullptr)
             return nullptr;
-        queue<TreeNode*> Queue;
+        queue<TreeNode *> Queue;
         Queue.push(root);
         while (!Queue.empty())
         {
