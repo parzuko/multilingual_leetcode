@@ -8,7 +8,7 @@ class TreeNode(object):
 class IterativeSolution(object):
     def maxDepth(self,root):
         if root == None:
-            return None
+            return 0
         
         queue = []
         queue.append(root)
