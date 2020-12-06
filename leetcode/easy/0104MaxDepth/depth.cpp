@@ -11,6 +11,46 @@ struct TreeNode
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
 };
 
+class IterativeSolution
+{
+public:
+    int maxDepth(TreeNode *root)
+    {
+        if (root == nullptr)
+        {
+            return 0;
+        }
+        queue<TreeNode *> queue;
+        queue.push(root);
+        int max_height = 0;
+
+        while (true)
+        {
+            int number_of_nodes = queue.size();
+            if (number_of_nodes == 0)
+            {
+                return max_height;
+            }
+            max_height++;
+
+            while (number_of_nodes > 0)
+            {
+                TreeNode *current = queue.front();
+                queue.pop();
+                if (current->left != nullptr)
+                {
+                    queue.push(current->left);
+                }
+                if (current->right != nullptr)
+                {
+                    queue.push(current->right);
+                }
+                number_of_nodes--;
+            }
+        }
+    }
+};
+
 class RecursiveSolution
 {
 public:
