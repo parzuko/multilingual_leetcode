@@ -5,6 +5,32 @@ class TreeNode(object):
         self.left = left
         self.right = right
 
+class IterativeSolution(object):
+    def maxDepth(self,root):
+        if root == None:
+            return None
+        
+        queue = []
+        queue.append(root)
+
+        max_height = 0
+
+        while True:
+            number_of_nodes = len(queue)
+            if number_of_nodes == 0:
+                return max_height
+            max_height += 1
+
+            while number_of_nodes > 0:
+                current = queue[0]
+                queue = queue[1:]
+
+                if current.left != None:
+                    queue.append(current.left)
+                if current.right != None:
+                    queue.append(current.right)
+                number_of_nodes -= 1
+
 class RecursiveSolution(object):
     def maxDepth(self, root):
         """
