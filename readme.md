@@ -19,7 +19,7 @@
 
 Made with ♥ by Jivansh Sharma :v: [Get in touch!](https://twitter.com/JivanshS)
 
-Last Update: December 9, 2020
+Last Update: December 11, 2020
 
 - Easy : 3
 - Medium : 3
@@ -29,11 +29,11 @@ Last Update: December 9, 2020
 [Video Walkthrough](https://www.youtube.com/watch?v=oSWTXtMglKE&feature=youtu.be&ab_channel=HackerRank)
 
 Implementations in the five languages :
-- [C++]()
-- [Python]()
-- [Kotlin]()
-- [Golang]()
-- [Dart]()
+- [C++](data_structures/trees/cpp/binary_search_trees.cpp)
+- [Python](data_structures/trees/python/binary_search_trees.py)
+- [Kotlin](data_structures/trees/kotlin/binary_search_trees.kt)
+- [Golang](data_structures/trees/golang/binary_search_trees.go)
+- [Dart](data_structures/trees/dart/binary_search_trees.dart)
 
 | Problem Number | Title | Difficulty | Solutions |
 | ----- | -------- | ---------- | ---- |
