@@ -1,23 +1,32 @@
 #include <iostream>
 using namespace std;
 
-int linear_search(int arr[], int n, int x)
+int linear_search(int numbers[], int size, int target)
 {
-    int i;
-    for (i = 0; i < n; i++)
-        if (arr[i] == x)
+
+    for (int i = 0; i < size; i++)
+    {
+        if (numbers[i] == target)
+        {
             return i;
+        }
+    }
     return -1;
 }
 
-int main(void)
+int main()
 {
-    int arr[] = {2, 3, 4, 10, 40};
-    int x = 10;
-    int n = sizeof(arr) / sizeof(arr[0]);
-    int result = linear_search(arr, n, x);
-    (result == -1)
-        ? cout << "Element is not present in array"
-        : cout << "Element is present at index " << result;
+    int numbers[] = {2, 3, 4, 10, 40};
+    int target = 10;
+    int size = sizeof(numbers) / sizeof(numbers[0]);
+    int result = linear_search(numbers, size, target);
+    if (result == -1)
+    {
+        cout << "Element doesn't exist!" << endl;
+    }
+    else
+    {
+        cout << "Element is present at index " << result << endl;
+    }
     return 0;
 }
