@@ -12,14 +12,15 @@
 * [Graph](#graph)
 
 ## Algorithms
-* [Searching]()
+* [Searching](algorithms/searching)
+* [Sorting](algorithms/sorting)
 * [DFS]()
 * [BFS]()
 
 
 Made with ♥ by Jivansh Sharma :v: [Get in touch!](https://twitter.com/JivanshS)
 
-Last Update: December 14, 2020
+Last Update: December 15, 2020
 
 - Easy : 3
 - Medium : 3
