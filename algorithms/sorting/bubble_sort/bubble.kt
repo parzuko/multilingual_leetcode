@@ -1,6 +1,9 @@
 fun main(args: Array<String>) {
     val numbers: IntArray = intArrayOf(900, 20, 34, 8, 54)
+    println("Before sorting, numbers are:")
+    println(numbers.joinToString(separator = " "))
     bubbleSort(numbers)
+    println("After sorting: ")
     println(numbers.joinToString(separator = " "))
 }
 
