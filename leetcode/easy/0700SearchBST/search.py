@@ -14,3 +14,14 @@ class RecursiveSolution(object):
             return self.searchBST(root.left, val)
         else:
             return self.searchBST(root.right, val)
+
+class IterativeSolution(object):
+    def searchBST(self, root, val) -> TreeNode:
+        while(root):
+            if root.val == val:
+                return root
+            elif val < root.val:
+                root = root.left
+            else:
+                root = root.right
+        return root
