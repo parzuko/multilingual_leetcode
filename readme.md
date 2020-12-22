@@ -22,7 +22,7 @@ Made with ♥ by Jivansh Sharma :v: [Get in touch!](https://twitter.com/JivanshS
 
 Last Update: December 19, 2020
 
-- Easy : 3
+- Easy : 4
 - Medium : 3
 - Hard : 1
 
@@ -45,3 +45,4 @@ Implementations in the five languages :
  [0104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Maximum Depth of Binary Tree](leetcode/easy/0104MaxDepth)| Easy| [Python](leetcode/easy/0104MaxDepth/depth.py), [C++](leetcode/easy/0104MaxDepth/depth.cpp), [Golang](leetcode/easy/0104MaxDepth/golang/depth.go), [Kotlin](leetcode/easy/0104MaxDepth/depth.kt)|
  [0226](https://leetcode.com/problems/invert-binary-tree/) | [ Invert Binary Tree](leetcode/easy/0226InvertBinaryTree)| Easy| [Python](leetcode/easy/0226InvertBinaryTree/invert_tree.py), [C++](leetcode/easy/0226InvertBinaryTree/invert_tree.cpp), [Golang](leetcode/easy/0226InvertBinaryTree/golang/invert_tree.go), [Kotlin](leetcode/easy/0226InvertBinaryTree/invert_tree.kt)|
  [0662](https://leetcode.com/problems/maximum-width-of-binary-tree/) | [ Maximum Width of Binary Tree](leetcode/medium/0662MaxWidth)| Medium| [Python](leetcode/medium/0662MaxWidth/maxwidth.py), [C++](leetcode/medium/0662MaxWidth/maxwidth.cpp), [Golang](leetcode/medium/0662MaxWidth/golang/maxwidth.go), [Kotlin](leetcode/medium/0662MaxWidth/maxwidth.kt)| 
+ [0700](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [ Search in a Binary Search Tree](leetcode/easy/0700SearchBST)| Easy| [Python](leetcode/easy/0700SearchBST/search.py), [C++](leetcode/easy/0700SearchBST/search.cpp), [Golang](leetcode/easy/0700SearchBST/golang/search.go), [Kotlin](leetcode/easy/0700SearchBST/search.kt)| 
