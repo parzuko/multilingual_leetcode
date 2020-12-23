@@ -19,3 +19,19 @@ class RecursiveSolution {
         }
     }
 }
+
+class Solution {
+    fun searchBST(root: TreeNode?, `val`: Int): TreeNode? {
+        var dummyRoot = root
+        while(dummyRoot != null){
+            if (dummyRoot.`val` == `val`){
+                return dummyRoot
+            }else if(`val` < dummyRoot.`val`){
+                dummyRoot= dummyRoot.`left`
+            }else{
+                dummyRoot = dummyRoot.right
+            }
+        }
+        return dummyRoot
+    }
+}
