@@ -20,7 +20,7 @@ class RecursiveSolution {
     }
 }
 
-class Solution {
+class IterativeSolution {
     fun searchBST(root: TreeNode?, `val`: Int): TreeNode? {
         var dummyRoot = root
         while(dummyRoot != null){
