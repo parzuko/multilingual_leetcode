@@ -20,7 +20,7 @@
 
 Made with ♥ by Jivansh Sharma :v: [Get in touch!](https://twitter.com/JivanshS)
 
-Last Update: January 8, 2021
+Last Update: January 22, 2021
 
 - Easy : 4
 - Medium : 4
