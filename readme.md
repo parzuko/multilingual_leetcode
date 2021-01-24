@@ -3,7 +3,7 @@
 
 
 ## Data Structures
-* [Array](#array)
+* [Array](data_structures/arrays)
 * [Linked List](#linked-list)
 * [Stack](#stack)
 * [Queue](#queue)
@@ -12,15 +12,14 @@
 * [Graph](#graph)
 
 ## Algorithms
+* [Dutch National Flag](algorithms/dutchNationalFlag)
 * [Searching](algorithms/searching)
 * [Sorting](algorithms/sorting)
-* [DFS]()
-* [BFS]()
 
 
 Made with ♥ by Jivansh Sharma :v: [Get in touch!](https://twitter.com/JivanshS)
 
-Last Update: January 22, 2021
+Last Update: January 23, 2021
 
 - Easy : 4
 - Medium : 4
