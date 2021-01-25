@@ -35,7 +35,7 @@ Implementations in the five languages :
 - [Golang](data_structures/trees/golang/binary_search_trees.go)
 - [Dart](data_structures/trees/dart/binary_search_trees.dart)
 
-| Problem Number | Title | Difficulty | Solutions |
+| Problem Number | Title | Difficulty | Solutions | 
 | ----- | -------- | ---------- | ---- |
  [0094](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [ Binary Tree InOrder Traversal](leetcode/medium/0094InOrder)| Medium| [Python](leetcode/medium/0094InOrder/inorder.py), [C++](leetcode/medium/0094InOrder/inorder.cpp), [Golang](leetcode/medium/0094InOrder/inorder.go), [Kotlin](leetcode/medium/0094InOrder/inorder.kt)|
  [0098](https://leetcode.com/problems/validate-binary-search-tree/) | [Validate Binary Search Tree](leetcode/medium/0098ValidateBST) | Medium | [Python](leetcode/medium/0098ValidateBST/valid.py), [C++](leetcode/medium/0098ValidateBST/valid.cpp), [Golang](leetcode/medium/0098ValidateBST/golang/valid.go), [Kotlin](leetcode/medium/0098ValidateBST/valid.kt) |
