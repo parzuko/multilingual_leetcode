@@ -19,7 +19,7 @@
 
 Made with ♥ by Jivansh Sharma :v: [Get in touch!](https://twitter.com/JivanshS)
 
-Last Update: January 23, 2021
+Last Update: January 26, 2021
 
 - Easy : 4
 - Medium : 4
