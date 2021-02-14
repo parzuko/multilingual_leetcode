@@ -1,4 +1,4 @@
-package RemoveNthNodeFromEnd
+package golang
 
 // LinkedList Data Class
 type LinkedList struct {
